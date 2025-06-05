@@ -1,0 +1,24 @@
+{
+  "name": "exercicios-variaveis",
+  "version": "1.0.0",
+  "description": "1.  Calculadora de IMC\r 2.  Fahrenheit x Celsius\r 3.  Desconto do tênis\r 4.  Calcular a distância entre dois pontos\r 5.  Calculo do perímetro e área de um círculo\r 6.  Soma dos ângulos internos de um polígono\r 7. Delta",
+  "main": "run-exercise.js",
+  "scripts": {
+    "start": "node run-exercise.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jauregao/exercicios-variaveis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jauregao/exercicios-variaveis/issues"
+  },
+  "homepage": "https://github.com/jauregao/exercicios-variaveis#readme",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
