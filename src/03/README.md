@@ -2,7 +2,7 @@
 
 ## Dando nome as pedras
 
-Modifique o código anterior para que, quando a pedra for uma bucha, digamos qual o "nome" da bucha. Para quem não constuma jogar dominó, segue um glossário:
+Fazendo uso do código criado no exercício anterior, modifique-o para que, quando a pedra retirada do dominó for uma bucha (uma pedra com dois lados iguais), o código informe o nome da bucha. Utilize o glossário abaixo para nomear as pedras:
 
 | Bucha de | Nome   |
 | -------- | ------ |
@@ -14,7 +14,7 @@ Modifique o código anterior para que, quando a pedra for uma bucha, digamos qua
 | 5        | Quina  |
 | 6        | Sena   |
 
-Para o caso do exercício anterior, deverá ser impresso na tela:
+Exemplo: caso a bucha retirada tenha os dois lados o número três, deverá ser impresso na tela:
 
 ```
     Bucha de terno
