@@ -1,13 +1,19 @@
-# Exercício 15
+# Exercício 7
 
 ## Nome para exibição
 
-Uma pessoa pode ter nome, sobrenome e/ou apelido.
-Escreva um código que imprima no console apenas o apelido (se o apelido estiver preenchido), ou primeiro nome + sobrenome (se o sobrenome estiver preenchido), ou apenas o primeiro nome (que no nosso programa é obrigatório e deverá sempre estar preenchido).
+Considerando que uma pessoa pode ter nome, sobrenome e/ou apelido, crie um código que imprima o nome da pessoa no console, seguindo esta ordem de prioridade:
 
-**Importante:** Neste exercício, não deveremos utilizar nenhum operador de comparação, nem de igualdade e nem de identidade. Para este exercício deveremos utilizar apenas o conceito de **truthiness**.
+- Apelido: Se a variável apelido estiver preenchida, imprima apenas o seu valor.
+- Nome e Sobrenome: Se a variável apelido não estiver preenchida, verifique se o nome e sobrenome existem.
+- Se o nome e sobrenome estiverem preenchidos, imprima o primeiroNome seguido de um espaço e o sobrenome.
+- Se apenas o nome estiver preenchido, imprima apenas o primeiroNome.
+- Se o apelido, nome e sobrenome estiverem preenchidos, apenas o apelido deve ser impresso.
 
-#### Exemplo primeiro nome:
+Observação: É obrigatório o preenchimento do nome (primeiroNome).
+
+
+#### Exemplo 1: primeiro nome:
 
 ```javascript
 const primeiroNome = "Mario";
@@ -23,9 +29,8 @@ Para o exemplo acima, deverá ser impresso no console apenas:
 Mario
 ```
 
-Teste também para outros casos de uso, como por exemplo quando o apelido estiver preenchido, que deverá ser impresso apenas o apelido, e também teste quando sobrenome estiver preenchido que deverá imprimir no console primeiro nome + sobrenome.
 
-#### Exemplo apelido:
+#### Exemplo 2: apelido:
 
 ```javascript
 const primeiroNome = "Mario";
@@ -41,7 +46,7 @@ Para o exemplo acima, deverá ser impresso no console apenas:
 Bros
 ```
 
-#### Exemplo com sobrenome:
+#### Exemplo 3: com sobrenome:
 
 ```javascript
 const primeiroNome = "Mario";
