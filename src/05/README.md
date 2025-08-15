@@ -2,17 +2,20 @@
 
 ## Montanha Russa Muito Assustadora
 
-Num parque de diversões existe uma **Montanha Russa Muito Assustadora**. Por isso, nesta montanha russa não são permitidas pessoas:
+Você está desenvolvendo o sistema de acesso para a **Montanha Russa Muito Assustadora**. As regras para permitir ou negar a entrada de usuários são as seguintes:
 
-- Menores de 12 anos
-- Maiores de 65 anos
-- Que possuam qualquer patologia cardíaca
-- Menores de 150cm de altura
+**Requisitos de Acesso:**
+- Idade: Pessoas entre 12 e 65 anos (inclusive).
+- Saúde: Não podem ter patologias cardíacas.
+- Altura: Devem ter no mínimo 150cm.
 
-Para as pessoas que podem brincar na montanha russa, a tabela de preços é a seguinte:
+Se a pessoa não cumprir qualquer um desses requisitos, o sistema deve imprimir "ACESSO NEGADO".
 
-- 10 reais caso a pessoa seja estudante ou menor de 18 anos (meia entrada)
-- 20 reias, caso contrário
+Regras de Preço:
+
+**Para quem tem acesso permitido, o valor do ingresso é:**
+- R$ 10,00 (meia-entrada) para estudantes ou menores de 18 anos.
+- R$ 20,00 para os demais casos.
 
 Seu papel é imprimir na tela:
 
